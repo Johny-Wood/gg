@@ -1,0 +1,41 @@
+import React from "react";
+
+const StatisticsChart = () => {
+  return (
+    <div className="col-md-8">
+      <div className="statistics__chart  content__frame">
+        <div className="chart__tabs tabs__wrap">
+          <div className="tabs__item tabs__active">
+            <a href="" className="tabs__a">
+              Личные регистрации
+            </a>
+          </div>
+          <div className="tabs__item">
+            <a href="" className="tabs__a">
+              личные продажи
+            </a>
+          </div>
+          <div className="tabs__item">
+            <a href="" className="tabs__a">
+              командные регистрации
+            </a>
+          </div>
+          <div className="tabs__item">
+            <a href="" className="tabs__a">
+              командные продажи
+            </a>
+          </div>
+        </div>
+        <div className="chart__content">
+          <img src="assets/img/chart.png" />
+        </div>
+        <div className="chart__footer statistics__footer">
+          <div></div>
+          <div className="faq__button">?</div>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default StatisticsChart;
