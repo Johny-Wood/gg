@@ -13,6 +13,6 @@ export default ({ mode }) => {
         "@": path.resolve(__dirname, "src"),
       },
     },
-    base: process.env.VITE_BASE_URL,
+    base: "auto",
   });
 };
