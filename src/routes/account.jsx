@@ -136,7 +136,7 @@ export default function Account() {
                   </div>
                 </div>
                 <div className="chart__content">
-                  <img src="/img/chart.png" />
+                  <img src="img/chart.png" />
                 </div>
                 <div className="chart__footer statistics__footer">
                   <div></div>
