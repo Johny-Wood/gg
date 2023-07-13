@@ -55,16 +55,10 @@ export default function Account() {
             <div className="col-md-3">
               <div className="qualification_img">
                 <picture>
-                  <source
-                    srcSet="src/assets/img/qualification.webp"
-                    type="image/webp"
-                  />
-                  <source
-                    srcSet="src/assets/img/qualification.png"
-                    type="image/png"
-                  />
+                  <source srcSet="img/qualification.webp" type="image/webp" />
+                  <source srcSet="img/qualification.png" type="image/png" />
                   <img
-                    src="src/assets/img/qualification.png"
+                    src="img/qualification.png"
                     width="270x"
                     height="270px"
                   />
@@ -142,7 +136,7 @@ export default function Account() {
                   </div>
                 </div>
                 <div className="chart__content">
-                  <img src="/src/assets/img/chart.png" />
+                  <img src="/img/chart.png" />
                 </div>
                 <div className="chart__footer statistics__footer">
                   <div></div>

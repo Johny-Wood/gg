@@ -117,11 +117,7 @@ const Header = () => {
             <div className="col-md-12">
               <div className="main-header__logo">
                 <a href="/GOLDEN">
-                  <img
-                    src="src/assets/img/logo.svg"
-                    width="194px"
-                    height="46px"
-                  />
+                  <img src="/img/logo.svg" width="194px" height="46px" />
                 </a>
               </div>
               <div className="main-header__account">
@@ -129,7 +125,7 @@ const Header = () => {
                   <li className="account__li">
                     <a href="/GOLDEN/cart.php" className="account__a">
                       <img
-                        src="src/assets/img/cart.svg"
+                        src="/img/cart.svg"
                         width="24px"
                         height="24px"
                         className="img__invert1"
@@ -139,11 +135,7 @@ const Header = () => {
                       <h4 className="account__h4 h4 head__flex">
                         Корзина
                         <span>
-                          <img
-                            src="src/assets/img/bx-x.svg"
-                            width="24px"
-                            height="24px"
-                          />
+                          <img src="/img/bx-x.svg" width="24px" height="24px" />
                         </span>
                       </h4>
                       <h4 className="account__h4 h4">Корзина пустая</h4>
@@ -158,11 +150,7 @@ const Header = () => {
                       <h4 className="account__h4 h4 head__flex">
                         Корзина
                         <span>
-                          <img
-                            src="src/assets/img/bx-x.svg"
-                            width="24px"
-                            height="24px"
-                          />
+                          <img src="/img/bx-x.svg" width="24px" height="24px" />
                         </span>
                       </h4>
                       <div className="cart__list">
@@ -170,15 +158,15 @@ const Header = () => {
                           <div className="cart__img">
                             <picture>
                               <source
-                                srcSet="src/assets/img/placeholder-2.webp"
+                                srcSet="/img/placeholder-2.webp"
                                 type="image/webp"
                               />
                               <source
-                                srcSet="src/assets/img/placeholder-2.jpg"
+                                srcSet="/img/placeholder-2.jpg"
                                 type="image/jpeg"
                               />
                               <img
-                                src="src/assets/img/placeholder-2.jpg"
+                                src="/img/placeholder-2.jpg"
                                 width="65px"
                                 height="65px"
                               />
@@ -192,7 +180,7 @@ const Header = () => {
                           <div className="cart__actions">
                             <span className="cart__remove">
                               <img
-                                src="src/assets/img/bx-x-circle.svg"
+                                src="/img/bx-x-circle.svg"
                                 width="20px"
                                 height="20px"
                                 className="img__invert1"
@@ -201,7 +189,7 @@ const Header = () => {
                             <div className="form__row price__row">
                               <span className="mask mask_left">
                                 <img
-                                  src="src/assets/img/bx-minus-circle.svg"
+                                  src="/img/bx-minus-circle.svg"
                                   width="15px"
                                   height="15px"
                                 />
@@ -209,7 +197,7 @@ const Header = () => {
                               <input type="text" defaultValue={1} />
                               <span className="mask mask_right">
                                 <img
-                                  src="src/assets/img/bx-plus-circle-1.svg"
+                                  src="/img/bx-plus-circle-1.svg"
                                   width="15px"
                                   height="15px"
                                 />
@@ -221,15 +209,15 @@ const Header = () => {
                           <div className="cart__img">
                             <picture>
                               <source
-                                srcSet="src/assets/img/placeholder-2.webp"
+                                srcSet="/img/placeholder-2.webp"
                                 type="image/webp"
                               />
                               <source
-                                srcSet="src/assets/img/placeholder-2.jpg"
+                                srcSet="/img/placeholder-2.jpg"
                                 type="image/jpeg"
                               />
                               <img
-                                src="src/assets/img/placeholder-2.jpg"
+                                src="/img/placeholder-2.jpg"
                                 width="65px"
                                 height="65px"
                               />
@@ -243,7 +231,7 @@ const Header = () => {
                           <div className="cart__actions">
                             <span className="cart__remove">
                               <img
-                                src="src/assets/img/bx-x-circle.svg"
+                                src="/img/bx-x-circle.svg"
                                 width="20px"
                                 height="20px"
                                 className="img__invert1"
@@ -252,7 +240,7 @@ const Header = () => {
                             <div className="form__row price__row">
                               <span className="mask mask_left">
                                 <img
-                                  src="src/assets/img/bx-minus-circle.svg"
+                                  src="/img/bx-minus-circle.svg"
                                   width="15px"
                                   height="15px"
                                 />
@@ -260,7 +248,7 @@ const Header = () => {
                               <input type="text" defaultValue={1} />
                               <span className="mask mask_right">
                                 <img
-                                  src="src/assets/img/bx-plus-circle-1.svg"
+                                  src="/img/bx-plus-circle-1.svg"
                                   width="15px"
                                   height="15px"
                                 />
@@ -272,15 +260,15 @@ const Header = () => {
                           <div className="cart__img">
                             <picture>
                               <source
-                                srcSet="src/assets/img/placeholder-2.webp"
+                                srcSet="/img/placeholder-2.webp"
                                 type="image/webp"
                               />
                               <source
-                                srcSet="src/assets/img/placeholder-2.jpg"
+                                srcSet="/img/placeholder-2.jpg"
                                 type="image/jpeg"
                               />
                               <img
-                                src="src/assets/img/placeholder-2.jpg"
+                                src="/img/placeholder-2.jpg"
                                 width="65px"
                                 height="65px"
                               />
@@ -294,7 +282,7 @@ const Header = () => {
                           <div className="cart__actions">
                             <span className="cart__remove">
                               <img
-                                src="src/assets/img/bx-x-circle.svg"
+                                src="/img/bx-x-circle.svg"
                                 width="20px"
                                 height="20px"
                                 className="img__invert1"
@@ -303,7 +291,7 @@ const Header = () => {
                             <div className="form__row price__row">
                               <span className="mask mask_left">
                                 <img
-                                  src="src/assets/img/bx-minus-circle.svg"
+                                  src="/img/bx-minus-circle.svg"
                                   width="15px"
                                   height="15px"
                                 />
@@ -311,7 +299,7 @@ const Header = () => {
                               <input type="text" defaultValue={1} />
                               <span className="mask mask_right">
                                 <img
-                                  src="src/assets/img/bx-plus-circle-1.svg"
+                                  src="/img/bx-plus-circle-1.svg"
                                   width="15px"
                                   height="15px"
                                 />
@@ -328,7 +316,7 @@ const Header = () => {
                   <li className="account__li">
                     <a href="#" className="account__a">
                       <img
-                        src="src/assets/img/notification.svg"
+                        src="/img/notification.svg"
                         width="24px"
                         height="24px"
                         className="img__invert1"
@@ -338,11 +326,7 @@ const Header = () => {
                       <h4 className="account__h4 h4 head__flex">
                         Уведомления
                         <span>
-                          <img
-                            src="src/assets/img/bx-x.svg"
-                            width="24px"
-                            height="24px"
-                          />
+                          <img src="/img/bx-x.svg" width="24px" height="24px" />
                         </span>
                       </h4>
                       <h4 className="account__h4 h4">Уведомлений нет</h4>
@@ -350,20 +334,12 @@ const Header = () => {
                   </li>
                   <li className="account__li">
                     <a href="#" className="account__a">
-                      <img
-                        src="src/assets/img/language.svg"
-                        width="24px"
-                        height="24px"
-                      />
+                      <img src="/img/language.svg" width="24px" height="24px" />
                     </a>
                   </li>
                   <li className="account__li">
                     <a href="#" className="account__a setting">
-                      <img
-                        src="src/assets/img/telegram.svg"
-                        width="15px"
-                        height="15px"
-                      />{" "}
+                      <img src="/img/telegram.svg" width="15px" height="15px" />{" "}
                       Настройки
                     </a>
                   </li>
