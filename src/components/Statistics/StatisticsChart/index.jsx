@@ -1,4 +1,5 @@
 import React from "react";
+import Chart from "../../../reusable/Chart";
 
 const StatisticsChart = () => {
   return (
@@ -27,7 +28,7 @@ const StatisticsChart = () => {
           </div>
         </div>
         <div className="chart__content">
-          <img src="assets/img/chart.png" />
+          <Chart />
         </div>
         <div className="chart__footer statistics__footer">
           <div></div>
