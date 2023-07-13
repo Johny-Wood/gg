@@ -10,5 +10,11 @@ export default defineConfig({
       "@": path.resolve(__dirname, "src"),
     },
   },
-  base: "https://johny-wood.github.io/gg",
+  base: "https://johny-wood.github.io/",
+  build: {
+    rollupOptions: {
+      sourcemapBaseUrl: "https://johny-wood.github.io/gg",
+      // https://rollupjs.org/configuration-options/
+    },
+  },
 });
