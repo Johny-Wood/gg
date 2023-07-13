@@ -27,7 +27,7 @@ const Footer = () => {
             <h4 className="modal__h4 h4">1. Главный разворот</h4>
             <div className="form__row file__row">
               <div className="form__row-img">
-                <img src="img/passpot-1.svg" width="129px" height="157px" />
+                <img src="assets/img/passpot-1.svg" width="129px" height="157px" />
               </div>
               <div className="form__row-content">
                 <h6 className="modal__h6 h6">Добавьте фото</h6>
@@ -48,7 +48,7 @@ const Footer = () => {
             <h4 className="modal__h4 h4">2. Прописка</h4>
             <div className="form__row file__row">
               <div className="form__row-img">
-                <img src="img/passpot-2.svg" width="129px" height="157px" />
+                <img src="assets/img/passpot-2.svg" width="129px" height="157px" />
               </div>
               <div className="form__row-content">
                 <h6 className="modal__h6 h6">Добавьте фото</h6>
@@ -68,7 +68,7 @@ const Footer = () => {
             </div>
             <h4 className="modal__h4 h4 color__gold">
               <span>
-                <img src="img/bx-info-circle.svg" width="20px" height="20px" />
+                <img src="assets/img/bx-info-circle.svg" width="20px" height="20px" />
               </span>{" "}
               Верификация займет до 5 дней
             </h4>
@@ -90,7 +90,7 @@ const Footer = () => {
           <h3 className="modal__h3 h3">
             Ошибка верификации{" "}
             <span>
-              <img src="img/bx-x.svg" width="24px" height="24px" />
+              <img src="assets/img/bx-x.svg" width="24px" height="24px" />
             </span>
           </h3>
           <div className="modal__instruction background__blue-two">
@@ -103,7 +103,7 @@ const Footer = () => {
           </div>
           <h4 className="modal__h4 h4 color__gold">
             <span>
-              <img src="img/bx-info-circle.svg" width="20px" height="20px" />
+              <img src="assets/img/bx-info-circle.svg" width="20px" height="20px" />
             </span>{" "}
             Необходимо повторно пройти верификацию
           </h4>
@@ -123,7 +123,7 @@ const Footer = () => {
           <h3 className="modal__h3 h3">
             Основное{" "}
             <span>
-              <img src="img/pencil.svg" width="24px" height="24px" />
+              <img src="assets/img/pencil.svg" width="24px" height="24px" />
             </span>
           </h3>
           <form>
@@ -136,7 +136,7 @@ const Footer = () => {
               <input type="text" placeholder="02.03.2000" />
               <span className="mask">
                 <img
-                  src="img/bx-calendar-edit.svg"
+                  src="assets/img/bx-calendar-edit.svg"
                   width="18px"
                   height="18px"
                 />
@@ -146,14 +146,14 @@ const Footer = () => {
             <div className="form__row">
               <input type="text" placeholder="Россия" />
               <span className="mask">
-                <img src="img/bx-caret-down.svg" width="18px" height="18px" />
+                <img src="assets/img/bx-caret-down.svg" width="18px" height="18px" />
               </span>
             </div>
             <h6 className="modal__h6 h6">Город</h6>
             <div className="form__row">
               <input type="text" placeholder="Москва" />
               <span className="mask">
-                <img src="img/bx-caret-down.svg" width="18px" height="18px" />
+                <img src="assets/img/bx-caret-down.svg" width="18px" height="18px" />
               </span>
             </div>
             <h6 className="modal__h6 h6">телефон</h6>
@@ -197,7 +197,7 @@ const Footer = () => {
           <h3 className="modal__h3 h3">
             Удаление аккаунта{" "}
             <span>
-              <img src="img/bx-x.svg" width="24px" height="24px" />
+              <img src="assets/img/bx-x.svg" width="24px" height="24px" />
             </span>
           </h3>
           <form>
@@ -265,7 +265,7 @@ const Footer = () => {
           <h3 className="modal__h3 h3">
             Удаление аккаунта{" "}
             <span>
-              <img src="img/bx-x.svg" width="24px" height="24px" />
+              <img src="assets/img/bx-x.svg" width="24px" height="24px" />
             </span>
           </h3>
           <div className="modal__text">
@@ -299,7 +299,7 @@ const Footer = () => {
           <h3 className="modal__h3 h3">
             Добавить партнерскую ссылку{" "}
             <span>
-              <img src="img/bx-x.svg" width="24px" height="24px" />
+              <img src="assets/img/bx-x.svg" width="24px" height="24px" />
             </span>
           </h3>
           <form>
@@ -324,7 +324,7 @@ const Footer = () => {
           <h3 className="modal__h3 h3">
             Привязать Google Authenticator{" "}
             <span>
-              <img src="img/bx-x.svg" width="24px" height="24px" />
+              <img src="assets/img/bx-x.svg" width="24px" height="24px" />
             </span>
           </h3>
           <div className="modal__warm">
@@ -350,11 +350,11 @@ const Footer = () => {
           <div className="modal__qr">
             <div className="modal__qr-android background__blue-two">
               <div className="modal__text">Android</div>
-              <img src="img/qr-android.svg" width="145px" height="145px" />
+              <img src="assets/img/qr-android.svg" width="145px" height="145px" />
             </div>
             <div className="modal__qr-ios background__blue-two">
               <div className="modal__text">IOS</div>
-              <img src="img/qr-ios.svg" width="145px" height="145px" />
+              <img src="assets/img/qr-ios.svg" width="145px" height="145px" />
             </div>
           </div>
           <div className="modal__actions">
@@ -376,14 +376,14 @@ const Footer = () => {
           <h3 className="modal__h3 h3">
             Привязать Google Authenticator{" "}
             <span>
-              <img src="img/bx-x.svg" width="24px" height="24px" />
+              <img src="assets/img/bx-x.svg" width="24px" height="24px" />
             </span>
           </h3>
           <div className="modal__phone">
             <picture>
-              <source srcSet="img/x-mockup-1.webp" type="image/webp" />
-              <source srcSet="img/x-mockup-1.jpg" type="image/jpeg" />
-              <img src="img/x-mockup-1.jpg" width="222px" height="446px" />
+              <source srcSet="assets/img/x-mockup-1.webp" type="image/webp" />
+              <source srcSet="assets/img/x-mockup-1.jpg" type="image/jpeg" />
+              <img src="assets/img/x-mockup-1.jpg" width="222px" height="446px" />
             </picture>
           </div>
           <nav className="slider__nav">
@@ -415,14 +415,14 @@ const Footer = () => {
           <h3 className="modal__h3 h3">
             Привязать Google Authenticator{" "}
             <span>
-              <img src="img/bx-x.svg" width="24px" height="24px" />
+              <img src="assets/img/bx-x.svg" width="24px" height="24px" />
             </span>
           </h3>
           <div className="modal__phone">
             <picture>
-              <source srcSet="img/x-mockup-2.webp" type="image/webp" />
-              <source srcSet="img/x-mockup-2.jpg" type="image/jpeg" />
-              <img src="img/x-mockup-2.jpg" width="222px" height="446px" />
+              <source srcSet="assets/img/x-mockup-2.webp" type="image/webp" />
+              <source srcSet="assets/img/x-mockup-2.jpg" type="image/jpeg" />
+              <img src="assets/img/x-mockup-2.jpg" width="222px" height="446px" />
             </picture>
           </div>
           <nav className="slider__nav">
@@ -454,20 +454,20 @@ const Footer = () => {
           <h3 className="modal__h3 h3">
             Привязать Google Authenticator{" "}
             <span>
-              <img src="img/bx-x.svg" width="24px" height="24px" />
+              <img src="assets/img/bx-x.svg" width="24px" height="24px" />
             </span>
           </h3>
           <div className="modal__phone">
             <div className="modal__qr-final background__blue-two">
               <div className="modal__text">Отсканируйте QR-код</div>
-              <img src="img/qr-ios.svg" width="145px" height="145px" />
+              <img src="assets/img/qr-ios.svg" width="145px" height="145px" />
             </div>
             <div className="modal__qr-final qr-final_bottom">
               <div className="modal__h6 h6">Введити ключ</div>
               <h4 className="modal__h4 h4">
                 BP75M4DGYZTEU3PB{" "}
                 <span>
-                  <img src="img/copy.svg" width="15px" height="15px" />
+                  <img src="assets/img/copy.svg" width="15px" height="15px" />
                 </span>
               </h4>
             </div>
@@ -514,7 +514,7 @@ const Footer = () => {
             <div className="form__row">
               <input type="text" placeholder="TRC-20" />
               <span className="mask">
-                <img src="img/bx-caret-down.svg" width="18px" height="18px" />
+                <img src="assets/img/bx-caret-down.svg" width="18px" height="18px" />
               </span>
             </div>
             <h6 className="modal__h6 h6">
@@ -597,7 +597,7 @@ const Footer = () => {
         <div className="modal__content">
           <h3 className="modal__h3 h3">Вывести USDT</h3>
           <div className="modal__text" style={{ textAlign: "center" }}>
-            <img src="img/bxs-check-square-1.svg" width="44px" height="44px" />
+            <img src="assets/img/bxs-check-square-1.svg" width="44px" height="44px" />
             <h4 className="modal__h4 h4">Готово!</h4>
             <div className="modal__li">
               В течении двух дней деньги придут
@@ -625,7 +625,7 @@ const Footer = () => {
                   <input type="text" />
                   <span className="mask">
                     <img
-                      src="img/bx-calendar-alt.svg"
+                      src="assets/img/bx-calendar-alt.svg"
                       width="18px"
                       height="18px"
                     />
@@ -637,7 +637,7 @@ const Footer = () => {
                   <input type="text" />
                   <span className="mask">
                     <img
-                      src="img/bx-calendar-alt.svg"
+                      src="assets/img/bx-calendar-alt.svg"
                       width="18px"
                       height="18px"
                     />
@@ -660,7 +660,7 @@ const Footer = () => {
                 placeholder="Премия за оборот структуры каждого лидера"
               />
               <span className="mask">
-                <img src="img/bx-caret-down.svg" width="18px" height="18px" />
+                <img src="assets/img/bx-caret-down.svg" width="18px" height="18px" />
               </span>
             </div>
             <h6 className="modal__h6 h6">Способ оплаты</h6>
@@ -670,7 +670,7 @@ const Footer = () => {
                 placeholder="Премия за оборот структуры каждого лидера"
               />
               <span className="mask">
-                <img src="img/bx-caret-down.svg" width="18px" height="18px" />
+                <img src="assets/img/bx-caret-down.svg" width="18px" height="18px" />
               </span>
             </div>
             <div className="modal__actions">
@@ -776,7 +776,7 @@ const Footer = () => {
           </div>
           <h4 className="modal__h4 h4 modal__h4-two">
             <span>
-              <img src="img/bx-info-circle.svg" width="20px" height="20px" />
+              <img src="assets/img/bx-info-circle.svg" width="20px" height="20px" />
             </span>
             <div className="modal__text">
               Совет: Я понимаю, что должен использовать выбранную платежную
@@ -825,7 +825,7 @@ const Footer = () => {
           </div>
           <h4 className="modal__h4 h4 modal__h4-two">
             <span>
-              <img src="img/bx-info-circle.svg" width="20px" height="20px" />
+              <img src="assets/img/bx-info-circle.svg" width="20px" height="20px" />
             </span>
             <div className="modal__text">
               Совет: Я понимаю, что должен использовать выбранную платежную
@@ -859,7 +859,7 @@ const Footer = () => {
           <h3 className="modal__h3 h3">
             Все способы оплаты{" "}
             <span>
-              <img src="img/bx-x.svg" width="24px" height="24px" />
+              <img src="assets/img/bx-x.svg" width="24px" height="24px" />
             </span>
           </h3>
           <div className="p2p__buy-payment-wrap">
@@ -908,7 +908,7 @@ const Footer = () => {
           <h3 className="modal__h3 h3">
             Отменить заказ{" "}
             <span>
-              <img src="img/bx-x.svg" width="24px" height="24px" />
+              <img src="assets/img/bx-x.svg" width="24px" height="24px" />
             </span>
           </h3>
           <h6 className="modal__h6 h6">Советы</h6>
@@ -917,7 +917,7 @@ const Footer = () => {
               Советы{" "}
               <span>
                 <img
-                  src="img/bx-chevron-left.svg"
+                  src="assets/img/bx-chevron-left.svg"
                   width="20px"
                   height="20px"
                   className="img__invert1 img__rotare270"
@@ -1019,7 +1019,7 @@ const Footer = () => {
           <h3 className="modal__h3 h3">
             Отменить заказ{" "}
             <span>
-              <img src="img/bx-x.svg" width="24px" height="24px" />
+              <img src="assets/img/bx-x.svg" width="24px" height="24px" />
             </span>
           </h3>
           <h6 className="modal__h6 h6">Советы</h6>
@@ -1028,7 +1028,7 @@ const Footer = () => {
               Советы{" "}
               <span>
                 <img
-                  src="img/bx-chevron-left.svg"
+                  src="assets/img/bx-chevron-left.svg"
                   width="20px"
                   height="20px"
                   className="img__invert1 img__rotare270"
@@ -1138,7 +1138,7 @@ const Footer = () => {
           <h3 className="modal__h3 h3">
             Подать апелляцию{" "}
             <span>
-              <img src="img/bx-x.svg" width="24px" height="24px" />
+              <img src="assets/img/bx-x.svg" width="24px" height="24px" />
             </span>
           </h3>
           <div className="p2p__steps">
@@ -1194,7 +1194,7 @@ const Footer = () => {
             <input type="text" placeholder="Выберите причину" />
             <span className="mask">
               <img
-                src="img/bx-chevron-left.svg"
+                src="assets/img/bx-chevron-left.svg"
                 width="20px"
                 height="20px"
                 className="img__invert1 img__rotare270"
@@ -1219,28 +1219,28 @@ const Footer = () => {
             <ul className="modal__ul">
               <li className="modal__li">
                 <span>
-                  <img src="img/bx-check.svg" width="24px" height="24px" />
+                  <img src="assets/img/bx-check.svg" width="24px" height="24px" />
                 </span>{" "}
                 Убедитесь, что на видео четко видны дата, время, номер счета и
                 ФИО плательщика и получателя платежа, а также детали транзакции.
               </li>
               <li className="modal__li">
                 <span>
-                  <img src="img/bx-check.svg" width="24px" height="24px" />
+                  <img src="assets/img/bx-check.svg" width="24px" height="24px" />
                 </span>{" "}
                 На видео должен быть отображен весь процесс входа в платежный
                 аккаунт (не забудьте скрыть пароль) и сведения об операции.
               </li>
               <li className="modal__li">
                 <span>
-                  <img src="img/bx-check.svg" width="24px" height="24px" />
+                  <img src="assets/img/bx-check.svg" width="24px" height="24px" />
                 </span>{" "}
                 Видео должно быть записано с использованием другого
                 телефона/камеры. Запрещается редактировать и обрезать видео.
               </li>
               <li className="modal__li">
                 <span>
-                  <img src="img/bx-x-1.svg" width="24px" height="24px" />
+                  <img src="assets/img/bx-x-1.svg" width="24px" height="24px" />
                 </span>{" "}
                 Если будет предоставлено поддельное доказательство, аккаунт
                 будет заблокирован.
@@ -1261,7 +1261,7 @@ const Footer = () => {
           <h3 className="modal__h3 h3">
             Хочу задать вопрос{" "}
             <span>
-              <img src="img/bx-x.svg" width="24px" height="24px" />
+              <img src="assets/img/bx-x.svg" width="24px" height="24px" />
             </span>
           </h3>
           <div className="modal__instruction background__blue-two">
@@ -1317,7 +1317,7 @@ const Footer = () => {
           <h3 className="modal__h3 h3" style={{ alignItems: "flex-start" }}>
             Я произвел оплату, но мой ордер был отменен{" "}
             <span>
-              <img src="img/bx-x.svg" width="24px" height="24px" />
+              <img src="assets/img/bx-x.svg" width="24px" height="24px" />
             </span>
           </h3>
           <div className="modal__text">
@@ -1356,7 +1356,7 @@ const Footer = () => {
           <h3 className="modal__h3 h3" style={{ alignItems: "flex-start" }}>
             Я произвел оплату, но мой ордер был отменен
             <span>
-              <img src="img/bx-x.svg" width="24px" height="24px" />
+              <img src="assets/img/bx-x.svg" width="24px" height="24px" />
             </span>
           </h3>
           <div className="modal__description">
@@ -1382,7 +1382,7 @@ const Footer = () => {
               <input type="text" placeholder="Выберите причину" />
               <span className="mask">
                 <img
-                  src="img/bx-chevron-left.svg"
+                  src="assets/img/bx-chevron-left.svg"
                   width="20px"
                   height="20px"
                   className="img__invert1 img__rotare270"
@@ -1455,7 +1455,7 @@ const Footer = () => {
           <h3 className="modal__h3 h3">
             Подтвердить
             <span>
-              <img src="img/bx-x.svg" width="24px" height="24px" />
+              <img src="assets/img/bx-x.svg" width="24px" height="24px" />
             </span>
           </h3>
           <form>
@@ -1522,7 +1522,7 @@ const Footer = () => {
           <h3 className="modal__h3 h3">
             Проверка безопасности
             <span>
-              <img src="img/bx-x.svg" width="24px" height="24px" />
+              <img src="assets/img/bx-x.svg" width="24px" height="24px" />
             </span>
           </h3>
           <div className="modal__text">
@@ -1561,7 +1561,7 @@ const Footer = () => {
           <h3 className="modal__h3 h3" style={{ alignItems: "flex-start" }}>
             Изменить способ подтверждения
             <span>
-              <img src="img/bx-x.svg" width="24px" height="24px" />
+              <img src="assets/img/bx-x.svg" width="24px" height="24px" />
             </span>
           </h3>
           <div className="modal__text">
@@ -1573,7 +1573,7 @@ const Footer = () => {
               <input type="text" placeholder="Способ подтверждения" />
               <span className="mask">
                 <img
-                  src="img/bx-chevron-left.svg"
+                  src="assets/img/bx-chevron-left.svg"
                   width="20px"
                   height="20px"
                   className="img__invert1 img__rotare270"
@@ -1591,19 +1591,19 @@ const Footer = () => {
           <h1 className="modal__h1 h1" style={{ alignItems: "flex-start" }}>
             Пример 1
             <span>
-              <img src="img/bx-x.svg" width="24px" height="24px" />
+              <img src="assets/img/bx-x.svg" width="24px" height="24px" />
             </span>
           </h1>
           <div className="modal__text">Описание</div>
           <div className="modal__thumbnail main__thumbnail ">
             <picture>
-              <source srcSet="img/placeholder-2.webp" type="image/webp" />
-              <source srcSet="img/placeholder-2.jpg" type="image/jpeg" />
-              <img src="img/placeholder-2.jpg" width="100%" height="200px" />
+              <source srcSet="assets/img/placeholder-2.webp" type="image/webp" />
+              <source srcSet="assets/img/placeholder-2.jpg" type="image/jpeg" />
+              <img src="assets/img/placeholder-2.jpg" width="100%" height="200px" />
             </picture>
           </div>
           <h2 className="modal__h2 h2">Код аутентификации</h2>
-          <img src="img/video.png" width="100%" />
+          <img src="assets/img/video.png" width="100%" />
         </div>
       </div>
       <div
@@ -1615,7 +1615,7 @@ const Footer = () => {
           <h3 className="modal__h3 h3">
             Cоздать заявку{" "}
             <span>
-              <img src="img/bx-x.svg" width="24px" height="24px" />
+              <img src="assets/img/bx-x.svg" width="24px" height="24px" />
             </span>
           </h3>
           <div className="p2p__steps steps__two">
@@ -1658,7 +1658,7 @@ const Footer = () => {
                   <input type="text" placeholder="USDT" />
                   <span className="mask">
                     <img
-                      src="img/bx-chevron-left.svg"
+                      src="assets/img/bx-chevron-left.svg"
                       width="20px"
                       height="20px"
                       className="img__invert1 img__rotare270"
@@ -1675,7 +1675,7 @@ const Footer = () => {
                       максимальная цена{" "}
                       <span>
                         <img
-                          src="img/bx-info-circle.svg"
+                          src="assets/img/bx-info-circle.svg"
                           width="20px"
                           height="20px"
                           className="img__invert1"
@@ -1702,7 +1702,7 @@ const Footer = () => {
                     Фиксированная{" "}
                     <span>
                       <img
-                        src="img/bxs-info-circle.svg"
+                        src="assets/img/bxs-info-circle.svg"
                         width="20px"
                         height="20px"
                       />
@@ -1725,7 +1725,7 @@ const Footer = () => {
                     Плавающая.{" "}
                     <span>
                       <img
-                        src="img/bxs-info-circle.svg"
+                        src="assets/img/bxs-info-circle.svg"
                         width="20px"
                         height="20px"
                       />{" "}
@@ -1740,7 +1740,7 @@ const Footer = () => {
                 <div className="form__row price__row">
                   <span className="mask mask_left">
                     <img
-                      src="img/bx-minus-circle.svg"
+                      src="assets/img/bx-minus-circle.svg"
                       width="20px"
                       height="20px"
                     />
@@ -1748,7 +1748,7 @@ const Footer = () => {
                   <input type="text" placeholder="78,32" />
                   <span className="mask mask_right">
                     <img
-                      src="img/bx-plus-circle-1.svg"
+                      src="assets/img/bx-plus-circle-1.svg"
                       width="20px"
                       height="20px"
                     />
@@ -1762,7 +1762,7 @@ const Footer = () => {
                       <div className="form__row price__row">
                         <span className="mask mask_left">
                           <img
-                            src="img/bx-minus-circle.svg"
+                            src="assets/img/bx-minus-circle.svg"
                             width="20px"
                             height="20px"
                           />
@@ -1770,7 +1770,7 @@ const Footer = () => {
                         <input type="text" placeholder="78,32" />
                         <span className="mask mask_right">
                           <img
-                            src="img/bx-plus-circle-1.svg"
+                            src="assets/img/bx-plus-circle-1.svg"
                             width="20px"
                             height="20px"
                           />
@@ -1782,7 +1782,7 @@ const Footer = () => {
                       <div className="form__row price__row">
                         <span className="mask mask_left">
                           <img
-                            src="img/bx-minus-circle.svg"
+                            src="assets/img/bx-minus-circle.svg"
                             width="20px"
                             height="20px"
                           />
@@ -1790,7 +1790,7 @@ const Footer = () => {
                         <input type="text" placeholder="78,32" />
                         <span className="mask mask_right">
                           <img
-                            src="img/bx-plus-circle-1.svg"
+                            src="assets/img/bx-plus-circle-1.svg"
                             width="20px"
                             height="20px"
                           />
@@ -1802,7 +1802,7 @@ const Footer = () => {
                 <span className="modal__faq">
                   <span>
                     <img
-                      src="img/bx-message-square.svg"
+                      src="assets/img/bx-message-square.svg"
                       width="20px"
                       height="20px"
                     />
@@ -1816,7 +1816,7 @@ const Footer = () => {
                   <input type="text" placeholder="RUB" />
                   <span className="mask">
                     <img
-                      src="img/bx-chevron-left.svg"
+                      src="assets/img/bx-chevron-left.svg"
                       width="20px"
                       height="20px"
                       className="img__invert1 img__rotare270"
@@ -1845,7 +1845,7 @@ const Footer = () => {
           <h3 className="modal__h3 h3">
             Cоздать заявку{" "}
             <span>
-              <img src="img/bx-x.svg" width="24px" height="24px" />
+              <img src="assets/img/bx-x.svg" width="24px" height="24px" />
             </span>
           </h3>
           <div className="p2p__steps steps__two">
@@ -1898,7 +1898,7 @@ const Footer = () => {
                 <input type="text" placeholder="Выберите способ оплаты" />
                 <span className="mask">
                   <img
-                    src="img/bx-chevron-left.svg"
+                    src="assets/img/bx-chevron-left.svg"
                     width="20px"
                     height="20px"
                     className="img__invert1 img__rotare270"
@@ -1910,19 +1910,19 @@ const Footer = () => {
                 <span className="list-pay__item background__green-two">
                   Сбер{" "}
                   <span>
-                    <img src="img/bx-x.svg" width="12px" height="12px" />
+                    <img src="assets/img/bx-x.svg" width="12px" height="12px" />
                   </span>
                 </span>
                 <span className="list-pay__item background__gold">
                   Тинькофф{" "}
                   <span>
-                    <img src="img/bx-x.svg" width="12px" height="12px" />
+                    <img src="assets/img/bx-x.svg" width="12px" height="12px" />
                   </span>
                 </span>
                 <span className="list-pay__item background__red-two">
                   Альфабанк{" "}
                   <span>
-                    <img src="img/bx-x.svg" width="12px" height="12px" />
+                    <img src="assets/img/bx-x.svg" width="12px" height="12px" />
                   </span>
                 </span>
               </div>
@@ -1931,7 +1931,7 @@ const Footer = () => {
                 <input type="text" placeholder="15 минут" />
                 <span className="mask">
                   <img
-                    src="img/bx-chevron-left.svg"
+                    src="assets/img/bx-chevron-left.svg"
                     width="20px"
                     height="20px"
                     className="img__invert1 img__rotare270"
@@ -1941,7 +1941,7 @@ const Footer = () => {
               <span className="modal__faq">
                 <span>
                   <img
-                    src="img/bx-message-square.svg"
+                    src="assets/img/bx-message-square.svg"
                     width="20px"
                     height="20px"
                   />
@@ -2004,7 +2004,7 @@ const Footer = () => {
           <h3 className="modal__h3 h3">
             Cоздать заявку{" "}
             <span>
-              <img src="img/bx-x.svg" width="24px" height="24px" />
+              <img src="assets/img/bx-x.svg" width="24px" height="24px" />
             </span>
           </h3>
           <div className="p2p__steps steps__two">
@@ -2062,7 +2062,7 @@ const Footer = () => {
                   <input type="text" placeholder="Все регионы" />
                   <span className="mask">
                     <img
-                      src="img/bx-chevron-left.svg"
+                      src="assets/img/bx-chevron-left.svg"
                       width="20px"
                       height="20px"
                       className="img__invert1 img__rotare270"
@@ -2078,7 +2078,7 @@ const Footer = () => {
                     С момента регистрации прошло{" "}
                     <span>
                       <img
-                        src="img/bxs-info-circle.svg"
+                        src="assets/img/bxs-info-circle.svg"
                         width="20px"
                         height="20px"
                       />{" "}
@@ -2092,7 +2092,7 @@ const Footer = () => {
                     <input type="text" placeholder={1} />
                     <span className="mask mask__top">
                       <img
-                        src="img/bx-chevron-left.svg"
+                        src="assets/img/bx-chevron-left.svg"
                         width="9px"
                         height="9px"
                         className="img__invert1 img__rotare90"
@@ -2100,7 +2100,7 @@ const Footer = () => {
                     </span>
                     <span className="mask mask__bottom">
                       <img
-                        src="img/bx-chevron-left.svg"
+                        src="assets/img/bx-chevron-left.svg"
                         width="9px"
                         height="9px"
                         className="img__invert1 img__rotare270"
@@ -2115,7 +2115,7 @@ const Footer = () => {
                     Баланс более{" "}
                     <span>
                       <img
-                        src="img/bxs-info-circle.svg"
+                        src="assets/img/bxs-info-circle.svg"
                         width="20px"
                         height="20px"
                       />{" "}
@@ -2129,7 +2129,7 @@ const Footer = () => {
                     <input type="text" placeholder={1} />
                     <span className="mask mask__top">
                       <img
-                        src="img/bx-chevron-left.svg"
+                        src="assets/img/bx-chevron-left.svg"
                         width="9px"
                         height="9px"
                         className="img__invert1 img__rotare90"
@@ -2137,7 +2137,7 @@ const Footer = () => {
                     </span>
                     <span className="mask mask__bottom">
                       <img
-                        src="img/bx-chevron-left.svg"
+                        src="assets/img/bx-chevron-left.svg"
                         width="9px"
                         height="9px"
                         className="img__invert1 img__rotare270"
@@ -2149,7 +2149,7 @@ const Footer = () => {
                 <h4 className="modal__h4 h4 color__gold">
                   <span>
                     <img
-                      src="img/bx-info-circle.svg"
+                      src="assets/img/bx-info-circle.svg"
                       width="20px"
                       height="20px"
                     />
@@ -2162,7 +2162,7 @@ const Footer = () => {
                 <span className="modal__faq">
                   <span>
                     <img
-                      src="img/bx-message-square.svg"
+                      src="assets/img/bx-message-square.svg"
                       width="20px"
                       height="20px"
                     />
@@ -2191,7 +2191,7 @@ const Footer = () => {
         <div className="modal__content">
           <h3 className="modal__h3 h3">Подтвердите оплату</h3>
           <div className="modal__text" style={{ textAlign: "center" }}>
-            <img src="img/cart-succes.svg" width="33px" height="33px" />
+            <img src="assets/img/cart-succes.svg" width="33px" height="33px" />
             <h4 className="modal__h4 h4">Готово!</h4>
             <div className="modal__li">Оплата прошла успешно</div>
           </div>
@@ -2204,7 +2204,7 @@ const Footer = () => {
         <div className="modal__content">
           <h3 className="modal__h3 h3">Подтвердите оплату</h3>
           <div className="modal__text" style={{ textAlign: "center" }}>
-            <img src="img/bxs-x-square.svg" width="33px" height="33px" />
+            <img src="assets/img/bxs-x-square.svg" width="33px" height="33px" />
             <h4 className="modal__h4 h4">Ошибка!</h4>
             <div className="modal__li">На счету недостаточно средств</div>
           </div>
@@ -2217,7 +2217,7 @@ const Footer = () => {
         <div className="modal__content">
           <h3 className="modal__h3 h3">Подтвердите оплату</h3>
           <div className="modal__text" style={{ textAlign: "center" }}>
-            <img src="img/bxs-time-five.svg" width="33px" height="33px" />
+            <img src="assets/img/bxs-time-five.svg" width="33px" height="33px" />
             <h4 className="modal__h4 h4">Заявка получена!</h4>
             <div className="modal__li">Ожидайте подтверждение оплаты</div>
           </div>
@@ -2236,7 +2236,7 @@ const Footer = () => {
             <h6 className="modal__h6 h6">Кошелек </h6>
             <h5 className="modal__h4 h4">
               0xdac17f958d2ee523a2206206994597c13d831ec7{" "}
-              <img src="img/copy.svg" width="15px" height="15px" />
+              <img src="assets/img/copy.svg" width="15px" height="15px" />
             </h5>
             <h6 className="modal__h6 h6">Сумма</h6>
             <h5 className="modal__h5 h5">3500 USDT</h5>
@@ -2244,12 +2244,12 @@ const Footer = () => {
           <div className="modal__qr">
             <div className="modal__qr-pay background__blue-two">
               <div className="modal__text">Оплатить по QR-коду</div>
-              <img src="img/qr-android.svg" width="145px" height="145px" />
+              <img src="assets/img/qr-android.svg" width="145px" height="145px" />
             </div>
           </div>
           <h4 className="modal__h4 h4 color__gold">
             <span>
-              <img src="img/bx-info-circle.svg" width="20px" height="20px" />
+              <img src="assets/img/bx-info-circle.svg" width="20px" height="20px" />
             </span>{" "}
             Инструкция
           </h4>
